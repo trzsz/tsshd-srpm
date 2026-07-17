@@ -1,5 +1,5 @@
 Name:           tsshd
-Version:        0.1.8
+Version:        0.1.9
 Release:        1
 Summary:        UDP-based SSH server with roaming support.
 
@@ -31,6 +31,9 @@ install -m 0755 %{_builddir}/bin/tsshd %{buildroot}%{_bindir}/tsshd
 %{_bindir}/tsshd
 
 %changelog
+* Sat Jul 18 2026 Lonny Wong <lonnywong@qq.com> - 0.1.9-1
+- Update to tsshd v0.1.9
+
 * Sun May 10 2026 Lonny Wong <lonnywong@qq.com> - 0.1.8-1
 - Update to tsshd v0.1.8
 
