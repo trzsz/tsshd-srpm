@@ -1,11 +1,11 @@
 Name:           tsshd
 Version:        0.1.9
 Release:        1
-Summary:        UDP-based SSH server with roaming support.
+Summary:        UDP-based SSH server with seamless roaming and auto-reconnect.
 
 License:        MIT
 URL:            https://trzsz.github.io/tsshd
-Source0:        %{url}/archive/refs/tags/v%{version}.tar.gz
+Source0:        https://github.com/trzsz/tsshd/archive/refs/tags/v%{version}.tar.gz
 
 BuildRequires:  golang-bin >= 1.25
 
@@ -13,7 +13,7 @@ BuildRequires:  golang-bin >= 1.25
 %define debug_package %{nil}
 
 %description
-tsshd is a UDP-based SSH server with roaming support.
+tsshd is a UDP-based SSH server with seamless roaming and auto-reconnect.
 
 %prep
 %autosetup -n %{name}-%{version}
