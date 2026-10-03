@@ -7,7 +7,7 @@ License:        MIT
 URL:            https://trzsz.github.io/tsshd
 Source0:        https://github.com/trzsz/tsshd/archive/refs/tags/v%{version}.tar.gz
 
-BuildRequires:  golang-bin >= 1.25
+BuildRequires:  golang-bin >= 1.26
 
 %undefine _debugsource_packages
 %define debug_package %{nil}

@@ -17,7 +17,7 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v6
         with:
-          go-version: "1.25"
+          go-version: "1.26"
       - name: Build SRPM
         run: |
           bin_version=$(awk -F':' '/^Version/ {gsub(/^[ \t]+|[ \t]+$/, "", $2); print $2}' tsshd.spec)
