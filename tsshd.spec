@@ -1,5 +1,5 @@
 Name:           tsshd
-Version:        0.1.9
+Version:        0.1.10
 Release:        1
 Summary:        UDP-based SSH server with seamless roaming and auto-reconnect.
 
@@ -31,6 +31,9 @@ install -m 0755 %{_builddir}/bin/tsshd %{buildroot}%{_bindir}/tsshd
 %{_bindir}/tsshd
 
 %changelog
+* Sat Oct 03 2026 Lonny Wong <lonnywong@qq.com> - 0.1.10-1
+- Update to tsshd v0.1.10
+
 * Sat Jul 18 2026 Lonny Wong <lonnywong@qq.com> - 0.1.9-1
 - Update to tsshd v0.1.9
 
